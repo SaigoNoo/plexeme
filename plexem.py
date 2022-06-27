@@ -4,9 +4,9 @@ from plexapi.server import PlexServer
 
 ### PLEX Configuration ###
 https = True
-server = "myplex.doussis.be"
+server = "dns"
 port = "443"
-token = "uzPJzTCb-SZw1kTohgV3"
+token = "token"
 
 # Connexion à l'instance Plex
 fullurl = print(f"{'https' if https else 'http'}://{server}:{port}")
